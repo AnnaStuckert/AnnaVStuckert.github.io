@@ -1,8 +1,6 @@
 +++
-author = "Darshan Baral"
-title = "Demo Page"
-date = "2022-11-19"
-description = "Sample article showcasing formatting for HTML elements."
+title = "Resource type 1"
+description = "This repo serves to provide resources of type 1"
 tags = [
     "markdown",
     "css",

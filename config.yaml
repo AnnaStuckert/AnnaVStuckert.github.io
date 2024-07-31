@@ -3,8 +3,6 @@ languageCode: en-us
 build:
   writeStats: true
 params:
-  title: aafu theme
-  author: Darshan Baral
   description: Website title
   theme:
     mainTheme: dark
@@ -21,82 +19,115 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
+    name: "Anna Villaume Stuckert"
+    tagline: MSc, PhD Student
+    location: "St Andrews University"
     photo: profile.jpg
   social:
     title: Links
     list:
       - icon: fab fa-linkedin-in
-        url: "#"
+        url: "https://www.linkedin.com/in/anna-stuckert-9aab86136/"
         title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
-        title: StackOverflow
       - icon: fab fa-github
-        url: "#"
+        url: "https://github.com/AnnaStuckert"
         title: GitHub
       - icon: fab fa-twitter
-        url: "#"
+        url: "https://x.com/StuckertAnna"
         title: Twitter
       - icon: fab fa-orcid
-        url: "#"
+        url: "https://orcid.org/my-orcid?orcid=0000-0003-3737-0972"
         title: Orcid
       - icon: ai ai-google-scholar
-        url: "#"
+        url: "https://scholar.google.com/citations?user=ONKp-9cAAAAJ&hl=da&oi=ao"
         title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
-        title: ResearchGate
   showInAccordion:
     - item: aboutme
       expand: true
     - item: experience
     - item: education
     - item: publication
-    - item: project
-    - item: skill
+    - item: project #previously projects, now skills
+    #- item: skill
     - item: hobby
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
+    description: I am a PhD student at the School of Psychology and Neuroscience at University of St Andrews, where I am part of the Allodi Lab. In my research I am studying how emotion processing changes in health and disease. Specifically I investigate changes in emotional processing in a mouse model of Frontotemporal Dementia using machine-learning based behavioural analysis, calcium imaging, and histology. I’m an advocate for open-source software, and am part of the 2024 cohort of the DeepLabCut AI Residency program.
+    
   experience:
     title: Experiences
     icon: fas fa-briefcase
     list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
+      - position: PhD Student
+        dates: 2023 - *Present*
+        company: University of St Andrews, School of Psychology and Neuroscience
         details: |1-
-          - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
-      - position: Job Title
-        dates: 2018 - 2019
-        url: "#"
-        company: Company Name
+          - I recently started my PhD in Neuroscience, where I will be studying Frontotemporal Dementia (FTD) in a transgenic mouse model of the disease. The project investigates emotion expression changes as a symptom of the disease and seeks to classify emotions in mice based on facial expressions when navigating a VR environment, and during social interaction, and compare this ability in sick and healthy mice, and furthermore look at the neural correlates of disease and causal mechanisms using calcium imaging and optogenetics.
+      - position: Laboratory Assistant and MSc Thesis Student
+        dates: 2022 - 2023
+        #url: "#"
+        company: University Of Copenhagen, Department Of Neuroscience
+        details: |1-
+          - Worked on a project investigating gene therapy in SOD1 ALS mouse models, with tasks including developing machine-learning based models of gait analysis, behavioral assessment, maintenance of transgenic mouse colonies, viral delivery (intravenous and intraspinal injections), tissue collection (perfusion and fresh-frozen collection), confocal microscopy, cryostat sectioning, biochemical assays including immunohistochemistry, genotyping, qPCR, as well as quantification of spinal cord motor neurons and their synaptic connections.
+      - position: Core Team Member
+        dates: 2022 - 2023
+        #url: "#"
+        company: Synapse Life Science Connect
+        details: |1-
+          - As a core team member of Synapse, I participated in the planning and execution of our activities such as workshops and events, including the Synapse Life Science Career Fair hosting around 500 students, and Clinical Winter School. Our aim is to spread insight into broadly spanning scientific areas, bridge the gap between life science academia and industry, and inspire, develop and connect students within the life science field.
+      - position: Mentor
+        dates: 2020 - 2021
+        #url: "#"
+        company: AARHUS UNIVERSITY, SPECIAL EDUCATIONAL SUPPORT CENTRE
+        details: |1-
+          - Worked as a mentor in the BSc Cognitive Science program, helping students with course material, with emphasis on assisting them in learning coding and statistics.
+      - position: Research Assistant
+        dates: 2020 - 2021
+        #url: "#"
+        company: AARHUS UNIVERSITY, DEPARTMENT OF CLINICAL MEDICINE AND DEPARTMENT OF NUCLEAR MEDICINE AND PET-CENTRE
+        details: |1-
+          - Assisting a PhD project investigating biomarkers of and cognitive decline in Alzheimer's disease, with my primary task being app-based cognitive testing of preclinical AD patients with ApoE4.
+      - position: Research Assistant
+        dates: 2020 - 2021
+        #url: "#"
+        company: AARHUS UNIVERSITY, CENTER FOR FUNCTIONALLY INTEGRATIVE NEUROSCIENCE, EMBODIED COMPUTATION GROUP 
+        details: |1-
+          - Research Assistant at a large-scale neuroimaging study investigating interoception, metacognition, learning, decision-making, and psychometrics. My tasks involved piloting, experiment development, data collection of ECG, HRV, fMRI, and behavioral data, data analysis, and manuscript writing. I also assisted the lab with data analysis, visualization and reporting of a survey study of COVID-19 and mental health.
+      - position: Research Assistant
+        dates: 2019 - 2021
+        #url: "#"
+        company: AARHUS UNIVERSITY, DEPARTMENT OF CLINICAL MEDICINE, DANISH PAIN RESEARCH CENTER 
+        details: |1-
+          - Assisting with data collection and experiment optimization on a study investigating spinal integration of thermal pain, a study on lidocaine and pain perception, and a study on olfaction and pain perception.
+      - position: Research Assistant
+        dates: 2019 - 2021
+        #url: "#"
+        company: AARHUS UNIVERSITY, INTERACTIVE MINDS CENTER
+        details: |1-
+          - Assisting on a study on neuroscience of social interaction and culture, helping with coding and translating the experiment, participant recruitment and data collection. Moreover, assisting with data analysis of an eye-tracking experiment investigating gaze patterns in ASD children across cultures.
+
+
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
+      - degree: Ph.D. Student in Neuroscience
+        college: University of St. Andrews
+        dates: 2023 - Present
+        thesis_title: "Facing Dementia: Investigating Disease Onset in a Mouse Model of Frontotemporal Dementia via Artificial Intelligence"
+        #thesis_url: "#"
+      - degree: M.Sc. in Neuroscience
+        college: University of Copenhagen
+        dates: 2023 - 2027
+        thesis_title: "Rescuing the Locomotor Phenotype by Systemic Administration of Extended Synaptotagmin 1 in a Mouse Model of Amyotrophic Lateral Sclerosis"
+        #thesis_url: "#"
+      - degree: B.Sc. in Cognitive Science
+        college: University of Aarhus
+        dates: 2018 - 2021
+        thesis_title: "What Does Your Heart Tell You? Investigating the Role of Interoception in Risk Preference and Bias"
   publication:
-    title: Publications
+    title: Publications and Presentations
     icon: fas fa-book
     format:
       - date
@@ -105,63 +136,86 @@ params:
       - journal
     types:
       - Journal Articles
-      - Proceedings
+      - Poster Presentations
     list:
       - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
+          Stabilization of V1 interneuron-motor neuron connectivity ameliorates motor phenotype in a mouse model of ALS
+        authors: "Mora, S., Stuckert, A., von Huth Friis, R., Pietersz, K., Noes-Holt, G., Montañana-Rosell, R., ... & Allodi, I"
+        date: "2024"
+        journal: "Nature Communications, 15(1), 4867"
+        url: "https://www.nature.com/articles/s41467-024-48925-7"
         type: Journal Articles
       - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
+          The heart rate discrimination task: A psychophysical method to estimate the accuracy and precision of interoceptive beliefs
+        authors: "Legrand, N., Nikolova, N., Correa, C., Brændholt, M., Stuckert, A., Kildahl, N., ... & Allen, M."
+        date: "2022"
+        journal: "Biological Psychology, 168, 108239"
+        url: "https://www.sciencedirect.com/science/article/pii/S0301051121002325"
         type: Journal Articles
       - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Proceedings
+          Disentangling the spinal mechanisms of illusory heat and burning sensations in the Thermal Grill Illusion
+        authors: "Mitchell, A. G., Ehmsen, J. F., Christensen, D. E., Stuckert, A. V., Haggard, P., & Fardo, F"
+        date: "2023"
+        journal: "bioRxiv, 2023-08"
+        url: "https://www.biorxiv.org/content/10.1101/2023.08.24.554485v2.abstract"
+        type: Journal Articles
+      - title: >-
+          Rescue of ALS phenotype by Esyt1 systemic overexpression in the SOD1G93A mous
+        authors: "Stuckert, A., Mora, S, Pietersz, K., Selvan, R, Verhaagen, J., Allodi, I. "
+        date: "2023"
+        journal: "Abstract No. 6417, Society for Neuroscience conference"
+        #url: "#"
+        type: Poster Presentations
+      - title: >-
+          Rescue of ALS phenotype by Esyt1 systemic overexpression in the SOD1G93A mous
+        authors: "Stuckert, A., Mora, S, Pietersz, K., Selvan, R, Verhaagen, J., Allodi, I. "
+        date: "2023"
+        journal: "Abstract No. 60, pre-SfN Motor Symposium"
+        #url: "#"
+        type: Poster Presentations
+      - title: >-
+          Rescue of ALS phenotype by Esyt1 systemic overexpression in the SOD1G93A mous
+        authors: "Stuckert, A., Mora, S, Pietersz, K., Selvan, R, Verhaagen, J., Allodi, I. "
+        date: "2023"
+        journal: "Abstract No. 21, St. Andrews Motor Meeting"
+        #url: "#"
+        type: Poster Presentations
   project:
-    title: Projects
-    icon: fas fa-project-diagram
-    list:
-      - title: Project 1
-        url: "#"
-        description: Description of the project
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
-  skill:
     title: Skills
-    panelId: skill-panel
-    icon: fas fa-cogs
+    icon: fas fa-cogs #previously fas fa-project-diagram
     list:
-      - skill: "Skill 1, Skill 2"
-        skillrating: 90
-      - skill: Skill 3
-        skillrating: 80
-      - skill: Skill 4
-        skillrating: 50
+      - title: Python/DeepLabCut (gait analysis and software development)  
+        #url: "#"
+        #description: Python/PsychoPy (coding experiments
+      - title: R/Rstudio (data analysis, visualization, machine learning
+      - title: Frequentist and Bayesian statistics
+      - title: Meta-analysis   
+      - title: Immunohistochemistry
+      - title: Behavioral Experiments
+      - title: Transgenic Mouse Colony Management
+      - title: ImageJ (motor neuron quantification)   
+      - title: Godot/Blender (VR video game and stimuli creation) 
+      - title: Bonsai (stimulus and VR workflow setup)
+      - title: Python/PsychoPy (coding experiments)
+      - title: MATLAB/SPM12/CONN (fMRI and EEG analysis)
+      - title: Eye- and mouse tracking      
+  #skill:
+  #  title: Skills
+  #  panelId: skill-panel
+  #  icon: fas fa-cogs
+  #  list:
+  #    - skill: "Skill 1, Skill 2"
+  #      skillrating: 90
+  #    - skill: Skill 3
+  #      skillrating: 80
+  #    - skill: Skill 4
+  #      skillrating: 50
   hobby:
     title: Hobbies
     icon: fas fa-gamepad
     list:
-      - hobby: Cooking
+      - hobby: Knitting
       - hobby: Hiking
+      - hobby: Rowing
+      - hobby: Swimming
       - hobby: Baking

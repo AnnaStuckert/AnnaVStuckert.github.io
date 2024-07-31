@@ -1,4 +1,4 @@
 ---
-title: "aafu theme"
+title: "Ressources"
 weight: 100
 ---
